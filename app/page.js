@@ -407,7 +407,7 @@ export default function Home() {
                     deposit: false,
                   }])
                   if (error) console.error('Supabase error:', JSON.stringify(error))
-                  else console.log('Order saved!', data)
+                  else console.log('Order saved to Supabase!', data)
                   setLoading(false)
                   setShowSuccess(true)
                 } catch (err) {
